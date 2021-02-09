@@ -54,3 +54,107 @@ header {
 .icon-nav .last svg {
     margin-right: 0px;
 }
+
+/* Stories */
+.stories-box {
+    background-color: #ffffff;
+    width: 614px;
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.storie {
+    border-radius: 100%;
+    height: 64px;
+    width: 64px;
+    overflow: hidden;
+    float: left;
+    margin: 18px 0px 0px 18px;
+}
+
+.storie .border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* padding: 5px; */
+}
+
+.storie .border img {
+    width: 90%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.user-stories1 {
+    display: inline-block;
+    width: 64px;
+    margin-left: 18px;
+    font-size: 12px;
+    color: #262626;
+}
+
+.user-stories {
+    display: inline-block;
+    width: 64px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #262626;
+}
+
+/* Content */
+.header-content {
+    margin: 0;
+    margin-top: 25px;
+    width: 614px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.header-content .user-img {
+    margin: 14px 10px 14px 18px;
+    float: left;
+}
+
+.header-content div span {
+    display: inline-block;
+    font-size: 14px;
+    color: #262626;
+    margin-top: 25px;
+}
+
+.header-content .user-header {
+    float: left;
+}
+
+.tres-pontinhos {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 429px;
+    margin-top: 11px;
+}
+
+/* Post */
+.post-content img {
+    width: 614px;
+    height: 614px;
+    margin: 0;
+}
+
+/* Comment */
+.comment-box {
+    width: 614px;
+    height: 265px;
+    background: #ffffff;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin: 0;
+}
