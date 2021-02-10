@@ -111,8 +111,37 @@ header {
 /* Aside */
 .aside-box {
     margin: 0;
-    width: 303px;
-    margin-left: 23px;
+    width: 280px;
+    height: 371px;
+    margin-top: 49px;
+}
+
+.aside-header {
+    display: flex;
+}
+
+.aside-user-itens {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-user-img {
+    margin: 0;
+}
+
+.aside-user {
+    font-size: 14px;
+    color: #262626;
+    font-weight: 600;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.aside-user-fullname {
+    font-size: 14px;
+    color: #8e8e8e;
+    font-weight: 400;
+    margin-left: 16px;
 }
 
 /* Content */
@@ -134,6 +163,7 @@ header {
 .header-content div span {
     display: inline-block;
     font-size: 14px;
+    font-weight: 600;
     color: #262626;
     margin-top: 25px;
 }
@@ -163,5 +193,6 @@ header {
     background: #ffffff;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
+    border-top: none;
     margin: 0;
 }
